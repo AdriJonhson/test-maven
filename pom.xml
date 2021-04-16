@@ -13,5 +13,11 @@
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
-
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/AdriJonhson/test-maven</url>
+        </repository>
+    </distributionManagement>
 </project>
